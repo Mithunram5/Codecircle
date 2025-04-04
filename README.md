@@ -1,12 +1,51 @@
-# React + Vite
+# Code Circle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Code Circle is a comprehensive event management platform designed specifically for coding events, hackathons, and tech workshops. It provides features for event creation, registration, attendance tracking, and participant management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Event Management**: Create, edit, and manage coding events
+- **Registration System**: Allow participants to register for events
+- **Attendance Tracking**: Track attendance for multi-day events
+- **Admin Dashboard**: Manage events and view participant information
+- **User Profiles**: User registration and profile management
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Material UI
+- React Router
+- date-fns for date handling
+- Vite for build tooling
+
+## Setup Instructions
+
+1. Clone the repository
+   ```
+   git clone https://github.com/Mithunram5/codecircle1.git
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+3. Start the development server
+   ```
+   npm run dev
+   ```
+
+## Project Structure
+
+- `/src/components`: Reusable UI components
+- `/src/pages`: Page components for different routes
+- `/src/context`: React context for state management
+- `/src/assets`: Static assets like images
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
