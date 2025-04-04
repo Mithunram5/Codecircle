@@ -22,7 +22,7 @@ Code Circle is a comprehensive event management platform designed specifically f
 
 1. Clone the repository
    ```
-   git clone https://github.com/Mithunram5/codecircle1.git
+   git clone https://github.com/Mithunram5/Codecircle.git
    ```
 
 2. Install dependencies
